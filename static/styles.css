@@ -105,3 +105,36 @@
 .information__cta-red::after{
     background-color: var(--soft-red);
 }
+
+/* Services */
+
+.services{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.service__card{
+    height: 60vh;
+    background: url("../images/mobile/image-graphic-design.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px 15px;
+    text-align: center;
+    color: var(--dark-desaturated-cyan);
+    gap: 30px;
+}
+.service__card-orange{
+    background-image: url("../images/mobile/image-photography.jpg");
+    color: var(--dark-blue);
+}
+.card__title{
+    font-family: var(--font-fraunces);
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.card__paragraph{
+    font-family: var(--font-barlow);
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
