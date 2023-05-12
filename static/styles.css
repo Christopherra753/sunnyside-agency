@@ -17,3 +17,38 @@
     --font-barlow:'Barlow', sans-serif;
     --font-fraunces:'Fraunces', serif;
 }
+
+.header{
+    width: 100%;
+    height: 60vh;
+    background: url("../images/mobile/image-header.jpg") no-repeat center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav__list{
+    display: none;
+}
+.header__hero{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.hero__title{
+    align-self: center;
+    font-family: var(--font-fraunces);
+    color: var(--white);
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.hero__arrow{
+    justify-self: center;
+}
